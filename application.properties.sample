@@ -1,0 +1,8 @@
+# TODO glob this shit
+editorPath=C:\\Program Files\\Sublime Text 3\\subl.exe
+latexBinDirectory=C:\\Program Files\\MiKTeX 2.9\\miktex\\bin\\x64
+backupPath=C:\\Users\\Warren\\Dropbox\\arete_backup\\
+pgDumpPath=C:\\Program Files\\PostgreSQL\\10\\bin\\pg_dump.exe
+databaseName=arete
+databaseUserName=arete
+pythonPath=C:\\Program Files\\Python37\\python.exe
