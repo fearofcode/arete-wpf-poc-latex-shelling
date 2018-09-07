@@ -79,7 +79,6 @@ namespace arete
         {
             BackgroundWorkerButton.IsEnabled = false;
 
-            progressBox.Text = "";
             backgroundWorker.RunWorkerAsync();
         }
 
