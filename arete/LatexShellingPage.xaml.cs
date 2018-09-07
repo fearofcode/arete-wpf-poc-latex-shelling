@@ -82,7 +82,7 @@ namespace arete
                 string expectedPngPath = tempLatexFile.Replace(".tex", ".png");
 
                 p = new Process();
-                startInfo.Arguments = $"-T tight -D 96 -o \"{expectedPngPath}\" \"{expectedDviPath}\"";
+                startInfo.Arguments = $"-T tight -D 96 -interaction=nonstopmode -o \"{expectedPngPath}\" \"{expectedDviPath}\"";
                 startInfo.FileName = dviPngPath;
 
                 p.StartInfo = startInfo;
