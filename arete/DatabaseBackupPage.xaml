@@ -1,0 +1,28 @@
+﻿<Page x:Class="arete.DatabaseBackupPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:arete"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="800"
+      Title="DatabaseBackupPage">
+    <Grid>
+        <StackPanel Orientation="Vertical"
+                    Margin="10">
+            <Button Content="Run"
+                    Name="DoBackupButton"
+                    Margin="0 5 0 5"
+                    Click="DoBackupButton_Click" />
+            <TextBox Height="400"
+                     IsReadOnly="True"
+                     TextWrapping="Wrap"
+                     AcceptsReturn="True"
+                     SelectionChanged="ProgressBox_SelectionChanged"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"
+                     Text="Output will go here"
+                     Name="progressBox" />
+        </StackPanel>
+        
+    </Grid>
+</Page>

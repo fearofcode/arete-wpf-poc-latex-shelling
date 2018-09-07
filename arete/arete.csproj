@@ -55,7 +55,28 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CodeEvaluationPage.xaml.cs">
+      <DependentUpon>CodeEvaluationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseBackupPage.xaml.cs">
+      <DependentUpon>DatabaseBackupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LatexShellingPage.xaml.cs">
+      <DependentUpon>LatexShellingPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PropertyConfiguration.cs" />
+    <Page Include="CodeEvaluationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DatabaseBackupPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LatexShellingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
